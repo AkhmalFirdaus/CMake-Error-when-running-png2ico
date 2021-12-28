@@ -2,7 +2,7 @@
 
 Hello World! I'm trying to compile the client-building from https://github.com/nextcloud/client-building
 
-However, got stucked at CMake as in the last line in build-log: https://github.com/AkhmalFirdaus/CMake-Error-when-running-png2ico/blob/main/last-build-2021-12-28-09-18-22-Release.log.
+However, got stucked at CMake as shown in the last line in build-log: https://github.com/AkhmalFirdaus/CMake-Error-when-running-png2ico/blob/main/last-build-2021-12-28-09-18-22-Release.log.
 
 Hence, I'm looking for the help from all github community to assist me in solving this issue.
 
