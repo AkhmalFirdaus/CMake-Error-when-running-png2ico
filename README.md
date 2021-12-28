@@ -29,7 +29,7 @@ See also "C:/Nextcloud/client-building/desktop/build/CMakeFiles/CMakeError.log".
 --- END: C:\Nextcloud\client-building\task-build-log.bat - 2021-12-28 09:22:38 ---
 ```
 
-
+***
 
 Other Error Log Location:
 C:\Nextcloud\client-building\desktop\build\CMakeFiles
