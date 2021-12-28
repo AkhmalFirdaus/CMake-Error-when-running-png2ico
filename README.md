@@ -38,6 +38,7 @@ C:\Nextcloud\client-building\desktop\build\CMakeFiles
 
 What is the meaning of deprecated? How to solve this issue?
 ````
+...
 Source file was:
 __attribute__((__deprecated__)) int somefunc() { return 0; }
     int main() { return somefunc();}
@@ -48,6 +49,7 @@ __attribute__((__deprecated__)) int somefunc() { return 0; }
 
 Same as in CMakeError.log. What is the meaning of __declspec(deprecated)..? How to solve this issue?
 ````
+...
 Source file was:
 __declspec(deprecated) int somefunc() { return 0; }
     int main() { return somefunc();}
