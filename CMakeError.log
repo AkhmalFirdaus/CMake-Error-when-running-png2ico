@@ -1,0 +1,102 @@
+Determining if the include file argp.h exists failed with the following output:
+Change Dir: C:/Nextcloud/client-building/desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_4a0dd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27045 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D _FILE_OFFSET_BITS=64 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _CRT_NONSTDC_NO_WARNINGS=1 /D _CRT_SECURE_NO_WARNINGS=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a0dd.dir\Debug\\" /Fd"cmTC_4a0dd.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'argp.h': No such file or directory [C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\cmTC_4a0dd.vcxproj]
+
+
+Determining if the function nanosleep exists in the rt failed with the following output:
+Change Dir: C:/Nextcloud/client-building/desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f3228.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27045 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D _FILE_OFFSET_BITS=64 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _CRT_NONSTDC_NO_WARNINGS=1 /D _CRT_SECURE_NO_WARNINGS=1 /D CHECK_FUNCTION_EXISTS=nanosleep /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3228.dir\Debug\\" /Fd"cmTC_f3228.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Nextcloud\tools\cmake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+LINK : fatal error LNK1104: cannot open file 'rt.lib' [C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\cmTC_f3228.vcxproj]
+
+
+Determining if the function argp_parse exists in the argp failed with the following output:
+Change Dir: C:/Nextcloud/client-building/desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_ed37e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27045 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D _FILE_OFFSET_BITS=64 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _CRT_NONSTDC_NO_WARNINGS=1 /D _CRT_SECURE_NO_WARNINGS=1 /D CHECK_FUNCTION_EXISTS=argp_parse /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed37e.dir\Debug\\" /Fd"cmTC_ed37e.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Nextcloud\tools\cmake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+LINK : fatal error LNK1104: cannot open file 'argp.lib' [C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\cmTC_ed37e.vcxproj]
+
+
+Determining if the function utimes exists failed with the following output:
+Change Dir: C:/Nextcloud/client-building/desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_85d4e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27045 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D _FILE_OFFSET_BITS=64 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _CRT_NONSTDC_NO_WARNINGS=1 /D _CRT_SECURE_NO_WARNINGS=1 /D CHECK_FUNCTION_EXISTS=utimes /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85d4e.dir\Debug\\" /Fd"cmTC_85d4e.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Nextcloud\tools\cmake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol utimes referenced in function main [C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\cmTC_85d4e.vcxproj]
+C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\Debug\cmTC_85d4e.exe : fatal error LNK1120: 1 unresolved externals [C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\cmTC_85d4e.vcxproj]
+
+
+Determining if the function lstat exists failed with the following output:
+Change Dir: C:/Nextcloud/client-building/desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_37f00.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27045 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D _FILE_OFFSET_BITS=64 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _CRT_NONSTDC_NO_WARNINGS=1 /D _CRT_SECURE_NO_WARNINGS=1 /D CHECK_FUNCTION_EXISTS=lstat /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37f00.dir\Debug\\" /Fd"cmTC_37f00.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Nextcloud\tools\cmake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol lstat referenced in function main [C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\cmTC_37f00.vcxproj]
+C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\Debug\cmTC_37f00.exe : fatal error LNK1120: 1 unresolved externals [C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\cmTC_37f00.vcxproj]
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: C:/Nextcloud/client-building/desktop/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_0cb42.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27045 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0cb42.dir\Debug\\" /Fd"cmTC_0cb42.dir\Debug\vc141.pdb" /Gd /TP /errorReport:queue "C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\src.cxx"
+  src.cxx
+  
+C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: '__deprecated__': undeclared identifier [C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\cmTC_0cb42.vcxproj]
+C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\cmTC_0cb42.vcxproj]
+C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\src.cxx(1): error C2448: '__attribute__': function-style initializer appears to be a function definition [C:\Nextcloud\client-building\desktop\build\CMakeFiles\CMakeTmp\cmTC_0cb42.vcxproj]
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
