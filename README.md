@@ -19,7 +19,8 @@ CMake Error at cmake/modules/ECMAddAppIcon.cmake:113 (message):
   No ICONS argument given to ecm_add_app_icon
 Call Stack (most recent call first):
   src/gui/CMakeLists.txt:362 (ecm_add_app_icon)
-...
+
+
 -- Configuring incomplete, errors occurred!
 See also "C:/Nextcloud/client-building/desktop/build/CMakeFiles/CMakeOutput.log".
 See also "C:/Nextcloud/client-building/desktop/build/CMakeFiles/CMakeError.log".
