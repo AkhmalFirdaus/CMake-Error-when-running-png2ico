@@ -12,7 +12,7 @@ In Git-Bash:  ../c/Nextcloud/client-building (master)
 $ BUILD_INSTALLER=0 USE_CODE_SIGNING=0 UPLOAD_BUILD=0 ./task-build-log.bat
 ```
 
-Output (LN6676-LN6687):
+Output: (LN6676-LN6687)
 ```
 ..
 CMake Error at cmake/modules/ECMAddAppIcon.cmake:113 (message):
