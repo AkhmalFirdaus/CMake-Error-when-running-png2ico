@@ -31,8 +31,8 @@ See also "C:/Nextcloud/client-building/desktop/build/CMakeFiles/CMakeError.log".
 
 Other Error Log:
 Location: C:\Nextcloud\client-building\desktop\build\CMakeFiles
-2) CMakeError.log: https://github.com/AkhmalFirdaus/CMake-Error-when-running-png2ico/blob/main/CMakeError.log
 
+2) CMakeError.log: https://github.com/AkhmalFirdaus/CMake-Error-when-running-png2ico/blob/main/CMakeError.log
 
 What is the meaning of deprecated? How to solve this issue?
 ````
@@ -40,6 +40,7 @@ Source file was:
 __attribute__((__deprecated__)) int somefunc() { return 0; }
     int main() { return somefunc();}
 ````
+
 
 3) CMakeOutput.log: https://github.com/AkhmalFirdaus/CMake-Error-when-running-png2ico/blob/main/CMakeOutput.log
 
